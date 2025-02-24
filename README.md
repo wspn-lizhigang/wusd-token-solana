@@ -4,9 +4,9 @@
 
 ## 开发环境要求
 
-- Rust 1.70.0 或更高版本
-- Solana 工具链 1.16.0
-- Node.js 16+ 和 Yarn
+- Rust 1.86.0 或更高版本
+- Solana 工具链 1.18.23
+- Node.js 18.18.0 和 Yarn
 - Anchor 0.30.1
 
 ## 开始使用
@@ -18,12 +18,12 @@ yarn install
 
 2. 构建程序:
 ```bash
-anchor build 
+yarn build 
 ```
 
 3. 部署程序:
 ```bash
-anchor deploy 
+yarn deploy 
 ```
 
 1. 使用部署后更新Anchor.toml、lib.rs中的程序ID。
@@ -61,7 +61,7 @@ anchor deploy
 
 1. 启动本地测试验证器:
 ```bash
-solana-test-validator
+yarn localnet
 ```
 
 ### 运行测试
